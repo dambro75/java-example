@@ -10,8 +10,8 @@ public class CalculatorController {
     public int square(@RequestParam(value = "x", defaultValue = "2") int x) {
         return x*x;
     }
-    @RequestMapping("/qube")
+    @RequestMapping("/sum")
     public int square(@RequestParam(value = "x", defaultValue = "2") int x) {
-        return x*x*x;
+        return x+x;
     }
 }

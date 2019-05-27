@@ -11,7 +11,7 @@ public class CalculatorController {
         return x*x;
     }
     @RequestMapping("/sum")
-    public int square(@RequestParam(value = "x", defaultValue = "2") int x) {
+    public int sum(@RequestParam(value = "x", defaultValue = "2") int x) {
         return x+x;
     }
 }
